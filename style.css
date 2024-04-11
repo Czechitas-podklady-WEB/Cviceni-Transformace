@@ -52,3 +52,12 @@ h2 {
 	transform-origin: 50% 100%;
 	transform: scaleY(0.95);
 }
+
+.houpacka__deti {
+	transform-origin: 50% 75%;
+	transform: rotate(-13deg);
+}
+
+.houpacka:active .houpacka__deti {
+	transform: rotate(13deg);
+}
